@@ -1,2 +1,2 @@
 # java-algorithms
-Sandbox learn and develop custom Java-based algorithms.
+Sandbox to learn and develop custom Java-based algorithms.
