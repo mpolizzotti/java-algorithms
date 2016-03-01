@@ -35,5 +35,4 @@ public class AlgorithmTester {
 		
 		System.out.println("Insertion Sort: " + Arrays.toString(insertResult));
 	}
-
 }

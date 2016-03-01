@@ -1,6 +1,6 @@
 package com.stacks;
 
-public class DoublyLinkedStackTester {
+public class StackTester {
 
 	public static void main(String[] args) {
 		// Initialize a new stack.
@@ -30,6 +30,9 @@ public class DoublyLinkedStackTester {
 		
 		// Output stack.
 		System.out.println(stack);
+		
+		System.out.println(" ");
+		System.out.println("----------------------");
+		System.out.println(" ");
 	}
-
 }

@@ -266,6 +266,11 @@ public class LinkedList {
 		return null;
 	}
 	
+	/**
+	 * Method returns reference to the head node.
+	 * 
+	 * @return The head node
+	 */
 	public Node getHead() {
 		return this.head;
 	}
@@ -273,7 +278,7 @@ public class LinkedList {
 	/**
 	 * Method provides toString() output for the list.
 	 * 
-	 * @return String
+	 * @return The string representation of the list
 	 */
 	@Override
 	public String toString() {

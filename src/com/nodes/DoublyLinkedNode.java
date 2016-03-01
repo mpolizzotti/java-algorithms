@@ -6,7 +6,8 @@ public class DoublyLinkedNode {
 	private DoublyLinkedNode nextNode;
 	
 	/**
-	 * Construct a new Doubly Node object.
+	 * Construct a new node.
+	 * 
 	 * @param data Data to be stored
 	 */
 	public DoublyLinkedNode (int data) {
@@ -17,7 +18,8 @@ public class DoublyLinkedNode {
 
 	/**
 	 * Return stored data.
-	 * @return
+	 * 
+	 * @return Stored data
 	 */
 	public int getData() {
 		return data;
@@ -25,6 +27,7 @@ public class DoublyLinkedNode {
 
 	/**
 	 * Set data to be stored.
+	 * 
 	 * @param data Data to be stored
 	 */
 	public void setData(int data) {
@@ -32,8 +35,9 @@ public class DoublyLinkedNode {
 	}
 	
 	/**
-	 * Return reference to the previous node.
-	 * @return
+	 * Returns a reference to the previous node.
+	 * 
+	 * @return Previous node
 	 */
 	public DoublyLinkedNode getPrevNode() {
 		return prevNode;
@@ -41,6 +45,7 @@ public class DoublyLinkedNode {
 
 	/**
 	 * Set reference to the previous node.
+	 * 
 	 * @param prevNode Node to be set
 	 */
 	public void setPrevNode(DoublyLinkedNode prevNode) {
@@ -48,8 +53,9 @@ public class DoublyLinkedNode {
 	}
 
 	/**
-	 * Return reference to the next node.
-	 * @return
+	 * Returns a reference to the next node.
+	 * 
+	 * @return Next node
 	 */
 	public DoublyLinkedNode getNextNode() {
 		return nextNode;
@@ -57,6 +63,7 @@ public class DoublyLinkedNode {
 
 	/**
 	 * Set reference to the next node.
+	 * 
 	 * @param nextNode Node to be set
 	 */
 	public void setNextNode(DoublyLinkedNode nextNode) {

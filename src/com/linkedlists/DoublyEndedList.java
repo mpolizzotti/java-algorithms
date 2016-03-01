@@ -6,6 +6,11 @@ public class DoublyEndedList {
 	private Node head;
 	private Node tail;
 	
+	/**
+	 * Method inserts data at the end of the list.
+	 * 
+	 * @param data Data to insert
+	 */
 	public void insertAtTail(int data) {
 		Node newNode = new Node(data);
 		if (this.head == null) {
@@ -22,6 +27,11 @@ public class DoublyEndedList {
 		}
 	}
 	
+	/**
+	 * Method returns the length of the list.
+	 * 
+	 * @return The length of the list
+	 */
 	public int length() {
 		if (this.head == null) {
 			return 0;

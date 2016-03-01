@@ -5,7 +5,8 @@ public class Node {
 	private Node nextNode;
 	
 	/**
-	 * Construct a new Node object.
+	 * Construct a new node.
+	 * 
 	 * @param data Data to be stored
 	 */
 	public Node (int data) {
@@ -14,7 +15,8 @@ public class Node {
 	
 	/**
 	 * Return stored data.
-	 * @return
+	 * 
+	 * @return Stored data
 	 */
 	public int getData() {
 		return this.data;
@@ -22,6 +24,7 @@ public class Node {
 	
 	/**
 	 * Set data to be stored.
+	 * 
 	 * @param data Data to be stored
 	 */
 	public void setData(int data) {
@@ -30,7 +33,8 @@ public class Node {
 	
 	/**
 	 * Return reference to the next node.
-	 * @return
+	 * 
+	 * @return Next node
 	 */
 	public Node getNextNode() {
 		return this.nextNode;
@@ -38,6 +42,7 @@ public class Node {
 	
 	/**
 	 * Set reference to the next node.
+	 * 
 	 * @param nextNode Node to be set
 	 */
 	public void setNextNode(Node nextNode) {
