@@ -15,6 +15,13 @@ public class RecursionTester {
 		System.out.println("Tail Factorial");
 		System.out.println("----------------------");
 		r.factorial(5, 1);
+		
+		System.out.println(" ");
+		
+		System.out.println("Tower of Hanoi");
+		System.out.println("----------------------");
+		TowerOfHanoi t = new TowerOfHanoi();
+		t.move(3, 'A', 'C', 'B');
 	}
 
 }

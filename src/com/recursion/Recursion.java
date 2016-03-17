@@ -47,5 +47,5 @@ public class Recursion {
 		System.out.println("factorial: " + n);
 		
 		return factorial(n - 1, n * result);
-	};
+	}
 }
