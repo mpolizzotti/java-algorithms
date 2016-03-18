@@ -1,10 +1,10 @@
 package com.recursion;
 
-public class Recursion {
+public class FactorialCalculator {
 	/**
-	 * Constructor for Recursion class.
+	 * Constructor for FactorialCalculator class.
 	 */
-	public Recursion() {}
+	public FactorialCalculator() {}
 	
 	/**
 	 * Method is an example of a head recursion.
